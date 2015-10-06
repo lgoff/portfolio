@@ -38,6 +38,10 @@ p {
     line-height: 1.5;
 }
 
+* {
+    outline: none;
+}
+
 a {
     font-size: inherit;
     color: #3d8a99;
@@ -86,7 +90,7 @@ hr {
 }
 
 #portfolio {
-   padding-top: 120px;
+    padding-top: 120px;
 }
 
 #about {
@@ -116,7 +120,7 @@ footer {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg3.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -230,11 +234,9 @@ h2.section-heading {
 /*NAV STYLES*/
 
 .navbar-default {
-    border-color: #d1b28c;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     background-color: #e8dbcc;
-    height: 60px;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -327,9 +329,6 @@ h2.section-heading {
     }
 }
 
-/*nav li {
-    padding-top: 18px;
-}*/
 
 /*NAV TOGGLE STYLES*/
 
@@ -338,7 +337,7 @@ h2.section-heading {
     border-color: #d1b28c;
 }
 
-.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
     background-color: #e8dbcc;
     border-color: #d1b28c;
@@ -350,6 +349,11 @@ h2.section-heading {
 
 .navbar-right {
     background-color: #e8dbcc;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #e8dbcc;
 }
 
 
@@ -456,10 +460,10 @@ h2.section-heading {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
+    margin: 0px 0 2px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 20px;
+    color: #235059;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -536,29 +540,45 @@ body {
 
 /*ABOUT STYLES */
 
-#about div.col-md-6 {
+/*.about {
+  text-align: left;
+    color: #2f3038;
+    font-size: 16px;
+    margin: 30px; 
+}*/
+
+#about img {
+    display: block;
+    margin: 30px auto 100px auto;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+
+/*#about div.col-md-8 {
     text-align: left;
-    padding: 10px 10px 10px 0;
+    padding-top: 65px;
     color: #2f3038;
     font-size: 16px;
     margin-bottom: 20px;
-}
-
-
-/*#about div.col-md-4 {
-    padding-left: 70px;
-    margin-bottom: 20px;
-}
-
-#about div.col-md-4 img {
-    width: 190px;
-    height: 190px;
 }*/
 
-.about-section {
-    margin: auto;
-    height: 190px;
+/*#about div.col-md-4 {
+   padding-left: 90px;
+    margin-bottom: 60px;
+}*/
+/*
+#about div.col-md-4 img {
+  
+}*/
+
+/*@media(min-width:992px) {
+    #about div.col-md-4 img {
+    width: 180px;
+        padding-left: 90px;
+        margin-bottom: 60px;
 }
+}*/
 
 
 /*TIMELINE STYLES*/
