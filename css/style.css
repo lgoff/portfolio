@@ -451,7 +451,7 @@ h2.section-heading {
 }
 
 .portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 3em;
 }
 
@@ -460,7 +460,7 @@ h2.section-heading {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 0px 0 2px;
+    margin-bottom: 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: #235059;
@@ -687,7 +687,7 @@ p.text-muted {
         left: 50%;
     }
     .timeline>li {
-        margin-bottom: 40px;
+        margin-bottom: 15px;
         min-height: 100px;
     }
     .timeline>li .timeline-panel {
