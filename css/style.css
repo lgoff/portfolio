@@ -432,7 +432,7 @@ h2.section-heading {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin-bottom: 70px;
     }
 }
 
@@ -543,8 +543,6 @@ body {
 #about img {
     display: block;
     margin: auto;
-    max-width: 350px;
-    max-height: 350px;
 }
 
 .about {
@@ -693,7 +691,7 @@ p.text-muted {
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
+        padding: 0 30px 20px 20px;
         text-align: right;
     }
     .timeline>li .timeline-image {
@@ -719,7 +717,7 @@ p.text-muted {
         min-height: 70px;
     }
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
+        padding: 0px;
     }
     .timeline>li .timeline-image {
         width: 30px;
@@ -741,7 +739,7 @@ p.text-muted {
         min-height: 100px;
     }
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding-left: 10px;
     }
     .timeline>li .timeline-image {
         width: 30px;
@@ -752,6 +750,6 @@ p.text-muted {
         margin-top: 40px;
     }
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0px;
+        padding-right: 10px;
     }
 }
